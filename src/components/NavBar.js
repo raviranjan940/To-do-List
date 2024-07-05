@@ -15,12 +15,22 @@ const NavBar = () => {
 
   return (
     <>
-      <AppBar position="static" sx={{ backgroundColor: '#fff', color: '#000'}}>
+      <AppBar position="static" sx={{ backgroundColor: '#fff', color: '#000' }}>
         <Toolbar>
           <Typography variant="h6" sx={{ flexGrow: 1, fontWeight: 'bold' }}>
             To-Do List
           </Typography>
-          <Button color="inherit" onClick={handleClickOpen} sx={{ backgroundColor: '#2196f3', color: '#fff', padding: '10px 15px'}}>
+          <Button 
+            onClick={handleClickOpen} 
+            sx={{ 
+              padding: '10px 15px', 
+              backgroundColor: '#2196f3', 
+              color: '#fff', 
+              '&:hover': { 
+                backgroundColor: '#1976d2' 
+              } 
+            }}
+          >
             Add New Task
           </Button>
         </Toolbar>

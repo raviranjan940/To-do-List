@@ -11,13 +11,13 @@ const AddTaskModal = ({ open, handleClose }) => {
     if (input.trim()) {
       dispatch(addTask(input));
       handleClose();
-      setInput(''); // Clear the input field after adding the task
+      setInput(''); 
     }
   };
 
   useEffect(() => {
     if (!open) {
-      setInput(''); // Clear the input field when the modal is closed
+      setInput(''); 
     }
   }, [open]);
 
