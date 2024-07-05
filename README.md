@@ -15,7 +15,7 @@
 
 ### Screenshot
 
-![Screenshot](<./public/screenshots/ScreenOverview.png>)
+![Screenshot](<./public/screenshots/DesktopOverView.png>)
 
 ### Links
 
