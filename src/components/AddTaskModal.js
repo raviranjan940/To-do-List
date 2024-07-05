@@ -7,6 +7,7 @@ const AddTaskModal = ({ open, handleClose }) => {
   const [input, setInput] = useState('');
   const dispatch = useDispatch();
 
+  
   const handleAddTask = () => {
     if (input.trim()) {
       dispatch(addTask(input));
